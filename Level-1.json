@@ -1,0 +1,641 @@
+{
+	"title": "Tutorial",
+	"chips": 11,
+	"timeLimit" : 100,
+	"tiles" : [
+		{
+			"type" : "Wall",
+			"row" : 8,
+			"col" : 9
+		},
+		{
+			"type" : "Wall",
+			"row" : 8,
+			"col" : 10
+		},
+		{
+			"type" : "Wall",
+			"row" : 8,
+			"col" : 11
+		},
+		{
+			"type" : "Wall",
+			"row" : 8,
+			"col" : 12
+		},
+		{
+			"type" : "Wall",
+			"row" : 8,
+			"col" : 13
+		},
+		{
+			"type" : "Wall",
+			"row" : 8,
+			"col" : 15
+		},
+		{
+			"type" : "Wall",
+			"row" : 8,
+			"col" : 16
+		},
+		{
+			"type" : "Wall",
+			"row" : 8,
+			"col" : 17
+		},
+		{
+			"type" : "Wall",
+			"row" : 8,
+			"col" : 18
+		},
+		{
+			"type" : "Wall",
+			"row" : 8,
+			"col" : 19
+		},
+		{
+			"type" : "Wall",
+			"row" : 9,
+			"col" : 9
+		},
+		{
+			"type" : "Wall",
+			"row" : 9,
+			"col" : 13
+		},
+		{
+			"type" : "Wall",
+			"row" : 9,
+			"col" : 14
+		},
+		{
+			"type" : "Wall",
+			"row" : 9,
+			"col" : 15
+		},
+		{
+			"type" : "Wall",
+			"row" : 9,
+			"col" : 19
+		},
+		{
+			"type" : "Wall",
+			"row" : 10,
+			"col" : 9
+		},
+		{
+			"type" : "Free",
+			"row" : 10,
+			"col" : 11,
+			"item" : {
+				"descriptor" : "Chip|null"
+			}
+		},
+		{
+			"type" : "Wall",
+			"row" : 10,
+			"col" : 13
+		},
+		{
+			"type" : "Exit",
+			"row" : 10,
+			"col" : 14
+		},
+		{
+			"type" : "Wall",
+			"row" : 10,
+			"col" : 15
+		},
+		{
+			"type" : "Free",
+			"row" : 10,
+			"col" : 17,
+			"item" : {
+				"descriptor" : "Chip|null"
+			}
+		},
+		{
+			"type" : "Wall",
+			"row" : 10,
+			"col" : 19
+		},
+		{
+			"type" : "Wall",
+			"row" : 11,
+			"col" : 7
+		},
+		{
+			"type" : "Wall",
+			"row" : 11,
+			"col" : 8
+		},
+		{
+			"type" : "Wall",
+			"row" : 11,
+			"col" : 9
+		},
+		{
+			"type" : "Wall",
+			"row" : 11,
+			"col" : 10
+		},
+		{
+			"type" : "Wall",
+			"row" : 11,
+			"col" : 11
+		},
+		{
+			"type" : "Door",
+			"row" : 11,
+			"col" : 12,
+			"extra" : "green"
+		},
+		{
+			"type" : "Wall",
+			"row" : 11,
+			"col" : 13
+		},
+		{
+			"type" : "GateTile",
+			"row" : 11,
+			"col" : 14
+		},
+		{
+			"type" : "WallTile",
+			"row" : 11,
+			"col" : 15
+		},
+		{
+			"type" : "Door",
+			"row" : 11,
+			"col" : 16,
+			"extra" : "green"
+		},
+		{
+			"type" : "Wall",
+			"row" : 11,
+			"col" : 17
+		},
+		{
+			"type" : "Wall",
+			"row" : 11,
+			"col" : 18
+		},
+		{
+			"type" : "Wall",
+			"row" : 11,
+			"col" : 19
+		},
+		{
+			"type" : "Wall",
+			"row" : 11,
+			"col" : 20
+		},
+		{
+			"type" : "Wall",
+			"row" : 11,
+			"col" : 21
+		},
+		{
+			"type" : "Wall",
+			"row" : 12,
+			"col" : 7
+		},
+		{
+			"type" : "Free",
+			"row" : 12,
+			"col" : 9,
+			"item" : {
+				"descriptor" : "Key|yellow"
+			}
+		},
+		{
+			"type" : "Door",
+			"row" : 12,
+			"col" : 11,
+			"extra" : "blue"
+		},
+		{
+			"type" : "Door",
+			"row" : 12,
+			"col" : 17,
+			"extra" : "red"
+		},
+		{
+			"type" : "Free",
+			"row" : 12,
+			"col" : 19,
+			"item" : {
+				"descriptor" : "Key|yellow"
+			}
+		},
+		{
+			"type" : "Wall",
+			"row" : 12,
+			"col" : 21
+		},
+		{
+			"type" : "Wall",
+			"row" : 13,
+			"col" : 7
+		},
+		{
+			"type" : "Free",
+			"row" : 13,
+			"col" : 9,
+			"item" : {
+				"descriptor" : "Chip|null"
+			}
+		},
+		{
+			"type" : "Wall",
+			"row" : 13,
+			"col" : 11
+		},
+		{
+			"type" : "Free",
+			"row" : 13,
+			"col" : 12,
+			"item" : {
+				"descriptor" : "Key|blue"
+			}
+		},
+		{
+			"type" : "Info",
+			"row" : 13,
+			"col" : 14,
+			"extra" : "Collect all chips within the time limit."
+		},
+		{
+			"type" : "Free",
+			"row" : 13,
+			"col" : 16,
+			"item" : {
+				"descriptor" : "Key|red"
+			}
+		},
+		{
+			"type" : "Wall",
+			"row" : 13,
+			"col" : 17
+		},
+		{
+			"type" : "Free",
+			"row" : 13,
+			"col" : 19,
+			"item" : {
+				"descriptor" : "Chip|null"
+			}
+		},
+		{
+			"type" : "Wall",
+			"row" : 13,
+			"col" : 21
+		},
+		{
+			"type" : "Wall",
+			"row" : 14,
+			"col" : 7
+		},
+		{
+			"type" : "Wall",
+			"row" : 14,
+			"col" : 8
+		},
+		{
+			"type" : "Wall",
+			"row" : 14,
+			"col" : 9
+		},
+		{
+			"type" : "Wall",
+			"row" : 14,
+			"col" : 10
+		},
+		{
+			"type" : "Wall",
+			"row" : 14,
+			"col" : 11
+		},
+		{
+			"type" : "Free",
+			"row" : 14,
+			"col" : 12,
+			"item" : {
+				"descriptor" : "Chip|null"
+			}
+		},
+		{
+			"type" : "Free",
+			"row" : 14,
+			"col" : 14,
+			"item" : {
+				"descriptor" : "Player|null"
+			}
+		},
+		{
+			"type" : "Free",
+			"row" : 14,
+			"col" : 16,
+			"item" : {
+				"descriptor" : "Chip|null"
+			}
+		},
+		{
+			"type" : "Wall",
+			"row" : 14,
+			"col" : 17
+		},
+		{
+			"type" : "Wall",
+			"row" : 14,
+			"col" : 18
+		},
+		{
+			"type" : "Wall",
+			"row" : 14,
+			"col" : 19
+		},
+		{
+			"type" : "Wall",
+			"row" : 14,
+			"col" : 20
+		},
+		{
+			"type" : "Wall",
+			"row" : 14,
+			"col" : 21
+		},
+		{
+			"type" : "Wall",
+			"row" : 15,
+			"col" : 7
+		},
+		{
+			"type" : "Free",
+			"row" : 15,
+			"col" : 9,
+			"item" : {
+				"descriptor" : "Chip|null"
+			}
+		},
+		{
+			"type" : "Wall",
+			"row" : 15,
+			"col" : 11
+		},
+		{
+			"type" : "Free",
+			"row" : 15,
+			"col" : 12,
+			"item" : {
+				"descriptor" : "Key|blue"
+			}
+		},
+		{
+			"type" : "Free",
+			"row" : 15,
+			"col" : 16,
+			"item" : {
+				"descriptor" : "Key|red"
+			}
+		},
+		{
+			"type" : "WallTile",
+			"row" : 15,
+			"col" : 17
+		},
+		{
+			"type" : "Free",
+			"row" : 15,
+			"col" : 19,
+			"item" : {
+				"descriptor" : "Chip|null"
+			}
+		},
+		{
+			"type" : "Wall",
+			"row" : 15,
+			"col" : 21
+		},
+		{
+			"type" : "Wall",
+			"row" : 16,
+			"col" : 7
+		},
+		{
+			"type" : "Free",
+			"row" : 16,
+			"col" : 9,
+			"item" : {
+				"descriptor" : "Key|green"
+			}
+		},
+		{
+			"type" : "Door",
+			"row" : 16,
+			"col" : 11,
+			"extra" : "red"
+		},
+		{
+			"type" : "Free",
+			"row" : 16,
+			"col" : 14,
+			"item" : {
+				"descriptor" : "Chip|null"
+			}
+		},
+		{
+			"type" : "Door",
+			"row" : 16,
+			"col" : 17,
+			"extra" : "blue"
+		},
+		{
+			"type" : "Wall",
+			"row" : 16,
+			"col" : 21
+		},
+		{
+			"type" : "Wall",
+			"row" : 17,
+			"col" : 7
+		},
+		{
+			"type" : "Wall",
+			"row" : 17,
+			"col" : 8
+		},
+		{
+			"type" : "Wall",
+			"row" : 17,
+			"col" : 9
+		},
+		{
+			"type" : "Wall",
+			"row" : 17,
+			"col" : 10
+		},
+		{
+			"type" : "Wall",
+			"row" : 17,
+			"col" : 11
+		},
+		{
+			"type" : "Wall",
+			"row" : 17,
+			"col" : 12
+		},
+		{
+			"type" : "Door",
+			"row" : 17,
+			"col" : 13,
+			"extra" : "yellow"
+		},
+		{
+			"type" : "Wall",
+			"row" : 17,
+			"col" : 14
+		},
+		{
+			"type" : "Door",
+			"row" : 17,
+			"col" : 15,
+			"extra" : "yellow"
+		},
+		{
+			"type" : "Wall",
+			"row" : 17,
+			"col" : 16
+		},
+		{
+			"type" : "Wall",
+			"row" : 17,
+			"col" : 17
+		},
+		{
+			"type" : "Wall",
+			"row" : 17,
+			"col" : 18
+		},
+		{
+			"type" : "Wall",
+			"row" : 17,
+			"col" : 19
+		},
+		{
+			"type" : "Wall",
+			"row" : 17,
+			"col" : 20
+		},
+		{
+			"type" : "Wall",
+			"row" : 17,
+			"col" : 21
+		},
+		{
+			"type" : "Wall",
+			"row" : 18,
+			"col" : 11
+		},
+		{
+			"type" : "Wall",
+			"row" : 18,
+			"col" : 14
+		},
+		{
+			"type" : "Wall",
+			"row" : 18,
+			"col" : 17
+		},
+		{
+			"type" : "Wall",
+			"row" : 19,
+			"col" : 11
+		},
+		{
+			"type" : "Free",
+			"row" : 19,
+			"col" : 13,
+			"item" : {
+				"descriptor" : "Chip|null"
+			}
+		},
+		{
+			"type" : "Wall",
+			"row" : 19,
+			"col" : 14
+		},
+		{
+			"type" : "Free",
+			"row" : 19,
+			"col" : 15,
+			"item" : {
+				"descriptor" : "Chip|null"
+			}
+		},
+		{
+			"type" : "Wall",
+			"row" : 19,
+			"col" : 17
+		},
+		{
+			"type" : "Wall",
+			"row" : 20,
+			"col" : 11
+		},
+		{
+			"type" : "Wall",
+			"row" : 20,
+			"col" : 14
+		},
+		{
+			"type" : "Free",
+			"row" : 20,
+			"col" : 15,
+			"item" : {
+				"descriptor" : "Key|green"
+			}
+		},
+		{
+			"type" : "Wall",
+			"row" : 20,
+			"col" : 17
+		},
+		{
+			"type" : "Wall",
+			"row" : 21,
+			"col" : 11
+		},
+		{
+			"type" : "Wall",
+			"row" : 21,
+			"col" : 12
+		},
+		{
+			"type" : "Wall",
+			"row" : 21,
+			"col" : 13
+		},
+		{
+			"type" : "Wall",
+			"row" : 21,
+			"col" : 14
+		},
+		{
+			"type" : "Wall",
+			"row" : 21,
+			"col" : 15
+		},
+		{
+			"type" : "Wall",
+			"row" : 21,
+			"col" : 16
+		},
+		{
+			"type" : "Wall",
+			"row" : 21,
+			"col" : 17
+		}
+	]
+}
