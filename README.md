@@ -1,4 +1,4 @@
-# ChapsChallenge
+# ChipsChallenge
 
 Implementation of a clone of the Atari videogame Chip's Challenge. Written in Java uses the Swing GUI framework. Created with four other students in a group project for university.
 
